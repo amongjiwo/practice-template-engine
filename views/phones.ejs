@@ -1,0 +1,14 @@
+<div class="container m-4">
+    <!-- Kita lakukan loop untuk menjalankan include untuk component phone -->
+
+    <div class="container mb-2">
+        <% phones.map((phone)=>{ %>
+            <h1>
+                <%= phone.brand %>
+            </h1>
+            <p>
+                <%= phone.description %>
+            </p>
+            <% }) %>
+    </div>
+</div>
